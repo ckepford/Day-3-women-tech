@@ -1,19 +1,31 @@
+*body {
+  font-family: sans-serif;
+}
+.nav-pills>li.active>a {
+  background-color: #3c3b5c;
+  opacity: 0.5;
+}
 .btn-primary {
-  background-color: red;
+  background-color: #3c3b5c;
+  opacity: 0.5;
 }
 
 .btn-group-lg>.btn, .btn-lg {
   border-radius: 0;
 }
 .col-md-4 {
-  height: 50px;
+  height: 200px;
 }
-.red {
-  background-color: red;
+.grey {
+  background-color: #908f9c;
 }
-.green {
-  background-color: green;
+img {
+  height: 200px;
+  width: 300px;
 }
-.blue {
-  background-color: blue;
+.footer {
+  height: 200px;
+  margin-top: 10%;
+  background-color: #908f9c;
+  padding: 5%;
 }
