@@ -1,31 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker');
 *body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-.nav-pills>li.active>a {
-  background-color: #3c3b5c;
-  opacity: 0.5;
+
+.navbar{
+  margin: 0;
 }
+.navbar-brand{
+  font-size: 33px;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px #cc8800;
+}
+
+.jumbo-img {
+  background-image: url("../img/hairy-animal.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.title-text, h1 {
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 3px 3px black;
+  margin-top: 5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .btn-primary {
-  background-color: #3c3b5c;
-  opacity: 0.5;
+  color: black;
+  background-color: #fff;
+  border: none;
+  margin-top: 2%;
+}
+
+.btn-primary:hover {
+  background-color: #3c4643;
 }
 
 .btn-group-lg>.btn, .btn-lg {
-  border-radius: 0;
+  border-radius: 5%;
 }
-.col-md-4 {
-  height: 200px;
+
+.social {
+  height: 40%;
+  margin-top: 30%;
 }
-.grey {
-  background-color: #908f9c;
+
+.fa {
+  color: #fff;
+  text-shadow: 3px 3px black;
+  font-size: 70px;
+  padding: 0 2% 2% 2%;
 }
-img {
-  height: 200px;
-  width: 300px;
+
+.fa:hover {
+  color: #3c4643;
 }
+
 .footer {
+  color: #fff;
   height: 200px;
-  margin-top: 10%;
-  background-color: #908f9c;
+  background-color: #3c4643;
   padding: 5%;
 }
